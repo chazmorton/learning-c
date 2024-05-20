@@ -18,4 +18,19 @@
 - enumeration constant, a list of constant integer values
 
 ### 2.7 Type Conversions
-- 
+- atoi converts a string of digits into its numeric equivalent (example: char to int)
+- lower (char to int conversion) maps a single character to lower case for the ASCII character set. 
+- Main reason for using float is to save storage in large arrays
+
+### 2.9 Bitwise Operators
+- 6 operators for bit manipulation. May only be applied to integral operands (char, short, int, and long, whether signed or unsigned)
+    - & bitwise AND
+    - | bitwise inclusive OR
+    - ^ bitwise exclusive OR
+    - "<<" left shift
+    - ">>" right shift
+    - ~ one's complement (unary)
+
+### 2.12 Precedence and Order of Execution
+- Table below summarizes rules of precedence and associativity of all operators. Operators on same line have the same precedence; rows are in order of decreasing precedence
+    - ![precedence](image-1.png)
