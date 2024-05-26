@@ -1,3 +1,5 @@
+<!-- cmd + k, then v, to view the markdown -->
+
 # Compilation Process
 
 Compiler converts C program into executable, this includes 4 phases:

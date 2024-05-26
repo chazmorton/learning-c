@@ -67,5 +67,7 @@ int main() {
         printf("Address of the first char in the string literal ~ %c: %p\n", exampleArray[i][0], (void *)&exampleArray[i][0]);
     }
 
+    printf("Size of I: %lu\n", sizeof(&exampleArray[0]));
+
     return 0;
 }
